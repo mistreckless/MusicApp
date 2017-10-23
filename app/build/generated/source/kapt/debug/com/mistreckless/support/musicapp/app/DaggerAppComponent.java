@@ -20,6 +20,8 @@ import com.mistreckless.support.musicapp.ui.main.MainActivityFragmentProvider_Pr
 import com.mistreckless.support.musicapp.ui.main.MainActivityFragmentProvider_ProvideWall;
 import com.mistreckless.support.musicapp.ui.main.MainPresenterProviderFactory;
 import com.mistreckless.support.musicapp.ui.main.MainPresenterProviderFactory_Factory;
+import com.mistreckless.support.musicapp.ui.player.PlayerActivity;
+import com.mistreckless.support.musicapp.ui.player.PlayerPresenterProviderFactory;
 import com.mistreckless.support.musicapp.ui.profile.Profile;
 import com.mistreckless.support.musicapp.ui.profile.ProfilePresenterProviderFactory;
 import com.mistreckless.support.musicapp.ui.profile.ProfilePresenterProviderFactory_Factory;
@@ -32,12 +34,14 @@ import dagger.internal.DoubleCheck;
 import dagger.internal.InstanceFactory;
 import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
-import java.util.Collections;
 import javax.inject.Provider;
 
 public final class DaggerAppComponent implements AppComponent {
   private Provider<ActivityBuilder_BindMainActivity.MainActivitySubcomponent.Builder>
       mainActivitySubcomponentBuilderProvider;
+
+  private Provider<ActivityBuilder_BindPlayerActivity.PlayerActivitySubcomponent.Builder>
+      playerActivitySubcomponentBuilderProvider;
 
   private Provider<Api> provideApiProvider;
 
@@ -66,6 +70,13 @@ public final class DaggerAppComponent implements AppComponent {
             return new MainActivitySubcomponentBuilder();
           }
         };
+    this.playerActivitySubcomponentBuilderProvider =
+        new Provider<ActivityBuilder_BindPlayerActivity.PlayerActivitySubcomponent.Builder>() {
+          @Override
+          public ActivityBuilder_BindPlayerActivity.PlayerActivitySubcomponent.Builder get() {
+            return new PlayerActivitySubcomponentBuilder();
+          }
+        };
     this.provideApiProvider =
         DoubleCheck.provider(DataModule_ProvideApiFactory.create(builder.dataModule));
     this.applicationProvider = InstanceFactory.create(builder.application);
@@ -90,10 +101,12 @@ public final class DaggerAppComponent implements AppComponent {
     App_MembersInjector.injectActivityDispatchAndroidInjector(
         instance,
         DispatchingAndroidInjector_Factory.newDispatchingAndroidInjector(
-            Collections
+            MapBuilder
                 .<Class<? extends Activity>, Provider<AndroidInjector.Factory<? extends Activity>>>
-                    singletonMap(
-                        MainActivity.class, (Provider) mainActivitySubcomponentBuilderProvider)));
+                    newMapBuilder(2)
+                .put(MainActivity.class, (Provider) mainActivitySubcomponentBuilderProvider)
+                .put(PlayerActivity.class, (Provider) playerActivitySubcomponentBuilderProvider)
+                .build()));
     return instance;
   }
 
@@ -214,6 +227,168 @@ public final class DaggerAppComponent implements AppComponent {
                   .build()));
       BaseActivity_MembersInjector.injectPresenterProviderFactory(
           instance, mainPresenterProviderFactoryProvider.get());
+      return instance;
+    }
+
+    private final class WallSubcomponentBuilder
+        extends MainActivityFragmentProvider_ProvideWall.WallSubcomponent.Builder {
+      private Wall seedInstance;
+
+      @Override
+      public MainActivityFragmentProvider_ProvideWall.WallSubcomponent build() {
+        if (seedInstance == null) {
+          throw new IllegalStateException(Wall.class.getCanonicalName() + " must be set");
+        }
+        return new WallSubcomponentImpl(this);
+      }
+
+      @Override
+      public void seedInstance(Wall arg0) {
+        this.seedInstance = Preconditions.checkNotNull(arg0);
+      }
+    }
+
+    private final class WallSubcomponentImpl
+        implements MainActivityFragmentProvider_ProvideWall.WallSubcomponent {
+      private Provider<WallPresenterProviderFactory> wallPresenterProviderFactoryProvider;
+
+      private WallSubcomponentImpl(WallSubcomponentBuilder builder) {
+        initialize(builder);
+      }
+
+      @SuppressWarnings("unchecked")
+      private void initialize(final WallSubcomponentBuilder builder) {
+        this.wallPresenterProviderFactoryProvider =
+            DoubleCheck.provider(
+                WallPresenterProviderFactory_Factory.create(
+                    DaggerAppComponent.this.provideUserRepositoryProvider));
+      }
+
+      @Override
+      public void inject(Wall arg0) {
+        injectWall(arg0);
+      }
+
+      private Wall injectWall(Wall instance) {
+        BaseFragment_MembersInjector.injectPresenterFactory(
+            instance, wallPresenterProviderFactoryProvider.get());
+        return instance;
+      }
+    }
+
+    private final class ProfileSubcomponentBuilder
+        extends MainActivityFragmentProvider_ProvideProfile.ProfileSubcomponent.Builder {
+      private Profile seedInstance;
+
+      @Override
+      public MainActivityFragmentProvider_ProvideProfile.ProfileSubcomponent build() {
+        if (seedInstance == null) {
+          throw new IllegalStateException(Profile.class.getCanonicalName() + " must be set");
+        }
+        return new ProfileSubcomponentImpl(this);
+      }
+
+      @Override
+      public void seedInstance(Profile arg0) {
+        this.seedInstance = Preconditions.checkNotNull(arg0);
+      }
+    }
+
+    private final class ProfileSubcomponentImpl
+        implements MainActivityFragmentProvider_ProvideProfile.ProfileSubcomponent {
+      private Provider<ProfilePresenterProviderFactory> profilePresenterProviderFactoryProvider;
+
+      private ProfileSubcomponentImpl(ProfileSubcomponentBuilder builder) {
+        initialize(builder);
+      }
+
+      @SuppressWarnings("unchecked")
+      private void initialize(final ProfileSubcomponentBuilder builder) {
+        this.profilePresenterProviderFactoryProvider =
+            DoubleCheck.provider(
+                ProfilePresenterProviderFactory_Factory.create(
+                    DaggerAppComponent.this.provideUserRepositoryProvider));
+      }
+
+      @Override
+      public void inject(Profile arg0) {
+        injectProfile(arg0);
+      }
+
+      private Profile injectProfile(Profile instance) {
+        BaseFragment_MembersInjector.injectPresenterFactory(
+            instance, profilePresenterProviderFactoryProvider.get());
+        return instance;
+      }
+    }
+  }
+
+  private final class PlayerActivitySubcomponentBuilder
+      extends ActivityBuilder_BindPlayerActivity.PlayerActivitySubcomponent.Builder {
+    private PlayerActivity seedInstance;
+
+    @Override
+    public ActivityBuilder_BindPlayerActivity.PlayerActivitySubcomponent build() {
+      if (seedInstance == null) {
+        throw new IllegalStateException(PlayerActivity.class.getCanonicalName() + " must be set");
+      }
+      return new PlayerActivitySubcomponentImpl(this);
+    }
+
+    @Override
+    public void seedInstance(PlayerActivity arg0) {
+      this.seedInstance = Preconditions.checkNotNull(arg0);
+    }
+  }
+
+  private final class PlayerActivitySubcomponentImpl
+      implements ActivityBuilder_BindPlayerActivity.PlayerActivitySubcomponent {
+    private Provider<MainActivityFragmentProvider_ProvideWall.WallSubcomponent.Builder>
+        wallSubcomponentBuilderProvider;
+
+    private Provider<MainActivityFragmentProvider_ProvideProfile.ProfileSubcomponent.Builder>
+        profileSubcomponentBuilderProvider;
+
+    private PlayerActivitySubcomponentImpl(PlayerActivitySubcomponentBuilder builder) {
+      initialize(builder);
+    }
+
+    @SuppressWarnings("unchecked")
+    private void initialize(final PlayerActivitySubcomponentBuilder builder) {
+      this.wallSubcomponentBuilderProvider =
+          new Provider<MainActivityFragmentProvider_ProvideWall.WallSubcomponent.Builder>() {
+            @Override
+            public MainActivityFragmentProvider_ProvideWall.WallSubcomponent.Builder get() {
+              return new WallSubcomponentBuilder();
+            }
+          };
+      this.profileSubcomponentBuilderProvider =
+          new Provider<MainActivityFragmentProvider_ProvideProfile.ProfileSubcomponent.Builder>() {
+            @Override
+            public MainActivityFragmentProvider_ProvideProfile.ProfileSubcomponent.Builder get() {
+              return new ProfileSubcomponentBuilder();
+            }
+          };
+    }
+
+    @Override
+    public void inject(PlayerActivity arg0) {
+      injectPlayerActivity(arg0);
+    }
+
+    private PlayerActivity injectPlayerActivity(PlayerActivity instance) {
+      BaseActivity_MembersInjector.injectFragmentDispatcher(
+          instance,
+          DispatchingAndroidInjector_Factory.newDispatchingAndroidInjector(
+              MapBuilder
+                  .<Class<? extends Fragment>,
+                      Provider<AndroidInjector.Factory<? extends Fragment>>>
+                      newMapBuilder(2)
+                  .put(Wall.class, (Provider) wallSubcomponentBuilderProvider)
+                  .put(Profile.class, (Provider) profileSubcomponentBuilderProvider)
+                  .build()));
+      BaseActivity_MembersInjector.injectPresenterProviderFactory(
+          instance, new PlayerPresenterProviderFactory());
       return instance;
     }
 

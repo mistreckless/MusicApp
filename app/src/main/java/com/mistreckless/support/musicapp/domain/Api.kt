@@ -7,6 +7,7 @@ import com.mistreckless.support.musicapp.domain.entity.User
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Header
+import retrofit2.http.Query
 
 /**
  * Created by @mistreckless on 23.10.2017. !
@@ -18,6 +19,9 @@ interface Api{
     fun getUserProfile(@Header("Authorization") token : String) : Single<User>
 
     @GET("/v1/me/tracks")
-    fun getUserTracks(@Header("Authorization") token : String) : Single<TrackPlaylist>
+    fun getUserTracks(@Header("Authorization") token : String,
+                      @Query("offset") offset : Int,
+                      @Query("limit") limit : Int)
+                       : Single<TrackPlaylist>
 
 }

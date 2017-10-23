@@ -9,8 +9,10 @@ p com.mistreckless.support.musicapp.ui.profile 2
 m 0 2/ProfilePresenterProviderFactory <init>
 p com.mistreckless.support.musicapp.ui.wall 3
 m 0 3/WallPresenterProviderFactory <init>
-p com.mistreckless.support.musicapp.app 4
-f 0 4/App activityDispatchAndroidInjector
+p com.mistreckless.support.musicapp.ui.player 4
+m 0 4/PlayerPresenterProviderFactory <init>
+p com.mistreckless.support.musicapp.app 5
+f 0 5/App activityDispatchAndroidInjector
 a org.jetbrains.annotations.NotNull 1
 f 1 0/BaseActivity fragmentDispatcher
 m 1 0/BaseActivity getFragmentDispatcher
@@ -29,25 +31,51 @@ m 1 0/BasePresenter getViewChangesDisposables
 m 1 0/BasePresenterProviderFactory get
 f 1 0/BasePresenterKt presenterHolder
 m 1 0/BasePresenterKt getPresenterHolder
+m 1 0/ExtKt observeScroll
 f 1 1/MainActivityPresenter TAG
 f 1 1/MainActivityPresenter CLIENT_ID
 f 1 1/MainActivityPresenter REDIRECT_URL
 m 1 1/MainPresenterProviderFactory get
 m 1 1/MainActivityFragmentProvider provideWall
 m 1 1/MainActivityFragmentProvider provideProfile
-p com.mistreckless.support.musicapp.domain 5
-m 1 5/Api getUserProfile
-m 1 5/RepositoryModule provideUserRepository
-m 1 5/DataModule provideApi
-m 1 5/DataModule providePreferences
+p com.mistreckless.support.musicapp.domain 6
+m 1 6/Api getUserProfile
+m 1 6/Api getUserTracks
+m 1 6/RepositoryModule provideUserRepository
+m 1 6/DataModule provideApi
+m 1 6/DataModule providePreferences
 f 1 2/ProfilePresenter TAG
 m 1 2/ProfilePresenterProviderFactory get
-f 1 3/Wall TOKEN_KEY
-p com.mistreckless.support.musicapp.ui.wall.Wall 6
-m 1 6/Companion newInstance
+f 1 3/WallAdapter tracks$delegate
+m 1 3/WallAdapter getTracks
+m 1 3/WallAdapter onCreateViewHolder
 f 1 3/WallPresenter TAG
 m 1 3/WallPresenterProviderFactory get
 p com.mistreckless.support.musicapp.domain.entity 7
+f 1 7/Track uri
+m 1 7/Track getUri
+f 1 7/Track previewUrl
+m 1 7/Track getPreviewUrl
+f 1 7/Track name
+m 1 7/Track getName
+f 1 7/Track id
+m 1 7/Track getId
+m 1 7/Track component1
+m 1 7/Track component2
+m 1 7/Track component3
+m 1 7/Track component4
+m 1 7/Track copy
+m 1 7/Track copy$default
+f 1 7/TrackPlaylist items
+m 1 7/TrackPlaylist getItems
+m 1 7/TrackPlaylist component1
+m 1 7/TrackPlaylist copy
+m 1 7/TrackPlaylist copy$default
+f 1 7/TrackItem track
+m 1 7/TrackItem getTrack
+m 1 7/TrackItem component1
+m 1 7/TrackItem copy
+m 1 7/TrackItem copy$default
 f 1 7/User id
 m 1 7/User getId
 f 1 7/User uri
@@ -67,75 +95,37 @@ m 1 9/Companion getQUEUE_CHANGED
 f 1 8/MyBroadcastReceiver METADATA_CHANGED
 m 1 9/Companion getMETADATA_CHANGED
 p com.mistreckless.support.musicapp.domain.repository 10
+m 1 10/UserRepositoryImpl getUserTracks
 m 1 10/UserRepositoryImpl getUser
 m 1 10/UserRepositoryImpl getToken
 m 1 10/UserRepository getUser
 m 1 10/UserRepository getToken
-f 1 4/App activityDispatchAndroidInjector
-m 1 4/App getActivityDispatchAndroidInjector
-m 1 4/App activityInjector
-m 1 4/AppModule providesContext
-m 1 4/ActivityBuilder bindMainActivity
-p com.mistreckless.support.musicapp.app.AppComponent 11
-m 1 11/Builder application
-m 1 11/Builder repositoryModule
-m 1 11/Builder dataModule
-m 1 11/Builder build
-m 1 5/Api getUserPlaylists
-m 1 5/Api getPlaylistTracks
-f 1 7/Playlist id
-m 1 7/Playlist getId
-m 1 7/Playlist component1
-m 1 7/Playlist copy
-m 1 7/Playlist copy$default
-f 1 7/Track uri
-m 1 7/Track getUri
-f 1 7/Track previewUrl
-m 1 7/Track getPreviewUrl
-f 1 7/Track name
-m 1 7/Track getName
-f 1 7/Track id
-m 1 7/Track getId
-m 1 7/Track component1
-m 1 7/Track component2
-m 1 7/Track component3
-m 1 7/Track component4
-m 1 7/Track copy
-m 1 7/Track copy$default
-f 1 7/TrackPlaylist track
-m 1 7/TrackPlaylist getTrack
-m 1 7/TrackPlaylist component1
-m 1 7/TrackPlaylist copy
-m 1 7/TrackPlaylist copy$default
-m 1 10/UserRepositoryImpl getUserPlaylists
-m 1 10/UserRepositoryImpl getTracks
-m 1 10/UserRepository getUserPlaylists
-m 1 10/UserRepository getTracks
-f 1 7/Playlist items
-m 1 7/Playlist getItems
-f 1 7/PlaylistItem id
-m 1 7/PlaylistItem getId
-m 1 7/PlaylistItem component1
-m 1 7/PlaylistItem copy
-m 1 7/PlaylistItem copy$default
-m 1 5/Api getUserTracks
-m 1 10/UserRepositoryImpl getUserTracks
 m 1 10/UserRepository getUserTracks
-f 1 7/TrackPlaylist tracks
-m 1 7/TrackPlaylist getTracks
-f 1 7/TrackPlaylist items
-m 1 7/TrackPlaylist getItems
-f 1 7/TrackItem track
-m 1 7/TrackItem getTrack
-m 1 7/TrackItem component1
-m 1 7/TrackItem copy
-m 1 7/TrackItem copy$default
+p com.mistreckless.support.musicapp.domain.repository.UserRepository 11
+m 1 11/DefaultImpls getUserTracks$default
+f 1 4/PlayerPresenter TAG
+m 1 4/PlayerPresenterProviderFactory get
+f 1 5/App activityDispatchAndroidInjector
+m 1 5/App getActivityDispatchAndroidInjector
+m 1 5/App activityInjector
+m 1 5/AppModule providesContext
+m 1 5/ActivityBuilder bindMainActivity
+m 1 5/ActivityBuilder bindPlayerActivity
+p com.mistreckless.support.musicapp.app.AppComponent 12
+m 1 12/Builder application
+m 1 12/Builder repositoryModule
+m 1 12/Builder dataModule
+m 1 12/Builder build
+f 1 4/PlayerActivity player
+m 1 4/PlayerActivity getPlayer
 a org.jetbrains.annotations.Nullable 2
 f 2 0/BaseFragment restoredBundle
 m 2 0/BaseFragment getRestoredBundle
 m 2 0/BaseFragment onCreateView
 m 2 0/BasePresenter getRouter
 m 2 0/BasePresenter getView
+f 2 3/TrackViewHolder containerView
+m 2 3/TrackViewHolder getContainerView
 a kotlin.Suppress 3
 c 3 0/BasePresenter
 a kotlin.annotation.Retention 4
@@ -157,16 +147,18 @@ a com.mistreckless.support.musicapp.ui.Layout 9
 c 9 1/MainActivity
 c 9 2/Profile
 c 9 3/Wall
+c 9 4/PlayerActivity
 a com.mistreckless.support.musicapp.ui.PerActivity 10
 c 10 1/MainPresenterProviderFactory
-c 10 4/ActivityBuilder
-m 10 4/ActivityBuilder bindMainActivity
+c 10 5/ActivityBuilder
+m 10 5/ActivityBuilder bindMainActivity
+m 10 5/ActivityBuilder bindPlayerActivity
 a dagger.Module 11
 c 11 1/MainActivityFragmentProvider
-c 11 5/RepositoryModule
-c 11 5/DataModule
-c 11 4/AppModule
-c 11 4/ActivityBuilder
+c 11 6/RepositoryModule
+c 11 6/DataModule
+c 11 5/AppModule
+c 11 5/ActivityBuilder
 a com.mistreckless.support.musicapp.ui.PerFragment 12
 m 12 1/MainActivityFragmentProvider provideWall
 m 12 1/MainActivityFragmentProvider provideProfile
@@ -175,94 +167,105 @@ c 12 3/WallPresenterProviderFactory
 a dagger.android.ContributesAndroidInjector 13
 m 13 1/MainActivityFragmentProvider provideWall
 m 13 1/MainActivityFragmentProvider provideProfile
-m 13 4/ActivityBuilder bindMainActivity
+m 13 5/ActivityBuilder bindMainActivity
+m 13 5/ActivityBuilder bindPlayerActivity
 a retrofit2.http.GET 14
-m 14 5/Api getUserProfile
-m 14 5/Api getUserPlaylists
-m 14 5/Api getPlaylistTracks
-m 14 5/Api getUserTracks
+m 14 6/Api getUserProfile
+m 14 6/Api getUserTracks
 a javax.inject.Singleton 15
-c 15 5/RepositoryModule
-m 15 5/RepositoryModule provideUserRepository
-c 15 5/DataModule
-m 15 5/DataModule provideApi
-m 15 5/DataModule providePreferences
-c 15 4/AppModule
-c 15 4/AppComponent
+c 15 6/RepositoryModule
+m 15 6/RepositoryModule provideUserRepository
+c 15 6/DataModule
+m 15 6/DataModule provideApi
+m 15 6/DataModule providePreferences
+c 15 5/AppModule
+c 15 5/AppComponent
 a dagger.Provides 16
-m 16 5/RepositoryModule provideUserRepository
-m 16 5/DataModule provideApi
-m 16 5/DataModule providePreferences
-m 16 4/AppModule providesContext
-a dagger.Component 17
-c 17 4/AppComponent
-a dagger.Component$Builder 18
-c 18 11/Builder
-a dagger.BindsInstance 19
-m 19 11/Builder application
-a com.google.gson.annotations.SerializedName 20
-f 20 7/Track previewUrl
+m 16 6/RepositoryModule provideUserRepository
+m 16 6/DataModule provideApi
+m 16 6/DataModule providePreferences
+m 16 5/AppModule providesContext
+a com.google.gson.annotations.SerializedName 17
+f 17 7/Track previewUrl
+a android.annotation.SuppressLint 18
+m 18 4/PlayerActivity initUi
+a dagger.Component 19
+c 19 5/AppComponent
+a dagger.Component$Builder 20
+c 20 12/Builder
+a dagger.BindsInstance 21
+m 21 12/Builder application
 d 0/BaseActivity
 d 0/BaseFragment
 d 0/BasePresenter
 d 0/BasePresenterProviderFactory
-p com.mistreckless.support.musicapp.ui.BasePresenterProviderFactory 12
-d 12/DefaultImpls
+p com.mistreckless.support.musicapp.ui.BasePresenterProviderFactory 13
+d 13/DefaultImpls
 d 0/BasePresenterKt
 d 0/Layout
+d 0/ExtKt
 d 0/PerActivity
 d 0/PerFragment
 d 1/MainActivity
 d 1/MainActivityView
-p com.mistreckless.support.musicapp.ui.main.MainActivityView 13
-d 13/DefaultImpls
-d 1/MainActivityRouter
-p com.mistreckless.support.musicapp.ui.main.MainActivityRouter 14
+p com.mistreckless.support.musicapp.ui.main.MainActivityView 14
 d 14/DefaultImpls
+d 1/MainActivityRouter
+p com.mistreckless.support.musicapp.ui.main.MainActivityRouter 15
+d 15/DefaultImpls
 d 1/MainActivityPresenter
-p com.mistreckless.support.musicapp.ui.main.MainActivityPresenter 15
-d 15/Companion
+p com.mistreckless.support.musicapp.ui.main.MainActivityPresenter 16
+d 16/Companion
 d 1/MainPresenterProviderFactory
 d 1/MainActivityFragmentProvider
-d 5/Api
-p com.mistreckless.support.musicapp.domain.Api 16
-d 16/DefaultImpls
-d 5/RepositoryModule
-d 5/DataModule
+d 6/Api
+p com.mistreckless.support.musicapp.domain.Api 17
+d 17/DefaultImpls
+d 6/RepositoryModule
+d 6/DataModule
 d 2/Profile
 d 2/ProfileView
-p com.mistreckless.support.musicapp.ui.profile.ProfileView 17
-d 17/DefaultImpls
+p com.mistreckless.support.musicapp.ui.profile.ProfileView 18
+d 18/DefaultImpls
 d 2/ProfilePresenter
-p com.mistreckless.support.musicapp.ui.profile.ProfilePresenter 18
-d 18/Companion
+p com.mistreckless.support.musicapp.ui.profile.ProfilePresenter 19
+d 19/Companion
 d 2/ProfilePresenterProviderFactory
 d 3/Wall
-d 6/Companion
 d 3/WallView
-p com.mistreckless.support.musicapp.ui.wall.WallView 19
-d 19/DefaultImpls
+p com.mistreckless.support.musicapp.ui.wall.WallView 20
+d 20/DefaultImpls
+d 3/WallAdapter
+d 3/TrackViewHolder
 d 3/WallPresenter
-p com.mistreckless.support.musicapp.ui.wall.WallPresenter 20
-d 20/Companion
+p com.mistreckless.support.musicapp.ui.wall.WallPresenter 21
+d 21/Companion
 d 3/WallPresenterProviderFactory
+d 7/Track
+d 7/TrackPlaylist
+d 7/TrackItem
 d 7/User
 d 8/MyBroadcastReceiver
 d 9/Companion
 d 10/UserRepositoryImpl
 d 10/UserRepository
-p com.mistreckless.support.musicapp.domain.repository.UserRepository 21
-d 21/DefaultImpls
-d 4/App
-d 4/AppModule
-d 4/ActivityBuilder
-d 4/AppComponent
-d 11/Builder
-p com.mistreckless.support.musicapp.app.AppComponent.Builder 22
-d 22/DefaultImpls
 d 11/DefaultImpls
-d 7/Playlist
-d 7/Track
-d 7/TrackPlaylist
-d 7/PlaylistItem
-d 7/TrackItem
+d 4/PlayerActivity
+d 4/PlayerActivityView
+p com.mistreckless.support.musicapp.ui.player.PlayerActivityView 22
+d 22/DefaultImpls
+d 4/PlayerActivityRouter
+p com.mistreckless.support.musicapp.ui.player.PlayerActivityRouter 23
+d 23/DefaultImpls
+d 4/PlayerPresenter
+p com.mistreckless.support.musicapp.ui.player.PlayerPresenter 24
+d 24/Companion
+d 4/PlayerPresenterProviderFactory
+d 5/App
+d 5/AppModule
+d 5/ActivityBuilder
+d 5/AppComponent
+d 12/Builder
+p com.mistreckless.support.musicapp.app.AppComponent.Builder 25
+d 25/DefaultImpls
+d 12/DefaultImpls

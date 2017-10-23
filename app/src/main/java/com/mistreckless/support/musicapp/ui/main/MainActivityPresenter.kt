@@ -1,12 +1,15 @@
 package com.mistreckless.support.musicapp.ui.main
 
 import android.content.Intent
+import android.os.Bundle
 import android.util.Log
 import com.mistreckless.support.musicapp.domain.repository.UserRepository
 import com.mistreckless.support.musicapp.ui.BasePresenter
 import com.mistreckless.support.musicapp.ui.BasePresenterProviderFactory
 import com.mistreckless.support.musicapp.ui.PerActivity
 import com.mistreckless.support.musicapp.ui.presenterHolder
+import com.mistreckless.support.musicapp.ui.profile.ProfilePresenter
+import com.mistreckless.support.musicapp.ui.wall.WallPresenter
 import com.spotify.sdk.android.authentication.AuthenticationClient
 import com.spotify.sdk.android.authentication.AuthenticationRequest
 import com.spotify.sdk.android.authentication.AuthenticationResponse.Type.*
@@ -21,6 +24,10 @@ class MainActivityPresenter(private val userRepository: UserRepository) : BasePr
         builder.setScopes(arrayOf("streaming","user-library-read","user-read-birthdate","user-read-playback-state"))
         val request = builder.build()
         getRouter()?.navigateToLoginActivity(request, LOGIN_REQUEST_CODE)
+    }
+
+    override fun onViewRestored(saveInstanceState: Bundle) {
+        getView()?.initUi()
     }
 
 
@@ -57,11 +64,13 @@ class MainActivityPresenter(private val userRepository: UserRepository) : BasePr
     }
 
     fun tabPlaylistClicked() {
+        presenterHolder.remove(ProfilePresenter.TAG)
         getRouter()?.navigateToWall()
     }
 
     fun taProfileClicked() {
-
+        presenterHolder.remove(WallPresenter.TAG)
+        getRouter()?.navigateToProfile()
     }
 }
 

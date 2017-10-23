@@ -3,8 +3,10 @@ package com.mistreckless.support.musicapp.ui.main
 import android.content.Intent
 import android.view.View
 import com.mistreckless.support.musicapp.R
+import com.mistreckless.support.musicapp.domain.entity.Track
 import com.mistreckless.support.musicapp.ui.BaseActivity
 import com.mistreckless.support.musicapp.ui.Layout
+import com.mistreckless.support.musicapp.ui.player.PlayerActivity
 import com.mistreckless.support.musicapp.ui.profile.Profile
 import com.mistreckless.support.musicapp.ui.wall.Wall
 import com.spotify.sdk.android.authentication.AuthenticationClient
@@ -18,12 +20,12 @@ class MainActivity : BaseActivity<MainActivityPresenter, MainPresenterProviderFa
             = presenter.activityResult(requestCode, resultCode, data)
 
     override fun initUi() {
-        bottomBar.visibility= View.VISIBLE
+        bottomBar.visibility = View.VISIBLE
         bottomBar.selectTabWithId(R.id.tab_profile)
-        bottomBar.setOnTabSelectListener { res->
-            when(res){
-                R.id.tab_music ->presenter.tabPlaylistClicked()
-                R.id.tab_profile->presenter.taProfileClicked()
+        bottomBar.setOnTabSelectListener { res ->
+            when (res) {
+                R.id.tab_music -> presenter.tabPlaylistClicked()
+                R.id.tab_profile -> presenter.taProfileClicked()
             }
         }
     }
@@ -32,11 +34,15 @@ class MainActivity : BaseActivity<MainActivityPresenter, MainPresenterProviderFa
             = AuthenticationClient.openLoginActivity(this, requestCode, request)
 
     override fun navigateToWall() {
-        supportFragmentManager.beginTransaction().replace(R.id.container,Wall()).commitAllowingStateLoss()
+        supportFragmentManager.beginTransaction().replace(R.id.container, Wall()).commitAllowingStateLoss()
     }
 
     override fun navigateToProfile() {
-        supportFragmentManager.beginTransaction().replace(R.id.container,Profile()).commitAllowingStateLoss()
+        supportFragmentManager.beginTransaction().replace(R.id.container, Profile()).commitAllowingStateLoss()
+    }
+
+    override fun navigateToPlayer(track: Track) {
+        startActivity(Intent(this, PlayerActivity::class.java).apply { putExtra("track", track) })
     }
 
 //    private fun initPlayer(response: AuthenticationResponse) {
@@ -65,4 +71,5 @@ interface MainActivityRouter {
     fun navigateToLoginActivity(request: AuthenticationRequest, requestCode: Int)
     fun navigateToWall()
     fun navigateToProfile()
+    fun navigateToPlayer(track: Track)
 }

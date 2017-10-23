@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidStudioProjects\\MusicApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/Users/mistreckless/StudioProjects/MusicApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4838594ab0bc7ab444e4ef052277b86c\\res\\values-land\\values-land.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\bottom-bar-2.3.1.aar\\c8de8a85c55c2ec5c0dd4cc384925b88\\res\\values-land\\values-land.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/546aad1d3079a616a68a8737b4bf4322/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\0b722cb0eb57a0f9e42d050ad78dad93\\res\\values-land\\values-land.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

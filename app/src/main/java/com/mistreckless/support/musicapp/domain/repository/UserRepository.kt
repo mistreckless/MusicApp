@@ -16,14 +16,14 @@ interface UserRepository {
     fun getUser(): Single<User>
     fun cacheToken(token: String)
     fun getToken(): String
-    fun getUserTracks() : Single<TrackPlaylist>
+    fun getUserTracks(offset : Int=0, limit : Int=20) : Single<TrackPlaylist>
 //    fun getTracks(playlistId : String) : Single<List<TrackPlaylist>>
 }
 
 
 class UserRepositoryImpl(private val api: Api, private val preferences: SharedPreferences) : UserRepository {
-    override fun getUserTracks(): Single<TrackPlaylist> {
-        return api.getUserTracks("Bearer "+getToken())
+    override fun getUserTracks(offset: Int,limit: Int): Single<TrackPlaylist> {
+        return api.getUserTracks("Bearer "+getToken(),offset, limit)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
     }
