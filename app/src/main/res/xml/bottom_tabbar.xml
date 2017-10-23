@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_music"
+        title="Playlist" />
+    <tab
+        id="@+id/tab_profile"
+        title="Profile" />
+</tabs>
