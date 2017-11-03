@@ -4,27 +4,33 @@ ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManif
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:1-42:12
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:1-42:12
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:1-42:12
-MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/1cef7cb5e67cfc85dacf1cbf49408339/AndroidManifest.xml:22:1-32:12
-MERGED from [com.roughike:bottom-bar:2.3.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/546aad1d3079a616a68a8737b4bf4322/AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.12.aar/d4b582ab6766c208298aea43313bb842/AndroidManifest.xml:16:1-19:12
-MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e6f84161c9017c27af4a5fabefbceacb/AndroidManifest.xml:2:1-11:12
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:22:1-55:12
-MERGED from [com.google.dagger:dagger-android:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-2.12.aar/f7172cf4588d9fb5b89cd45cae14f21e/AndroidManifest.xml:16:1-19:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/7a89fa68c68ebcb5369073c15099bd0e/AndroidManifest.xml:15:1-21:12
-MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/b9b01b1c089126b2802beebd94497b82/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:17:1-30:12
+MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/fb451ac9591c67182a564c3ecfd7c72d/AndroidManifest.xml:22:1-32:12
+MERGED from [com.roughike:bottom-bar:2.3.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/183276faa3df1108e1f78d70bb6fbdc5/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.12.aar/632ec76ce3af27b544d0c4518f687fe7/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/113dba09a6ae38cd426ce5c6dabe0106/AndroidManifest.xml:2:1-11:12
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:22:1-55:12
+MERGED from [com.google.dagger:dagger-android:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-2.12.aar/0d237b2b1fe219be8cdbd9cc0983326b/AndroidManifest.xml:16:1-19:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/45db273dd35db3694f0c53e7831daf75/AndroidManifest.xml:15:1-21:12
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.4.aar/318a701b9c24644ddd0c498f28d57a22/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.4.aar/6b359bda21d9666ee1ae5639a69cc934/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/86e3fe797648e01f45f54bccc7dcf569/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.4.aar/b381404ce500b404bbb2ab8f03a52acd/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.4.aar/616c583045a0669f05a1f5ac1031df5c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.4.aar/02b5e989e4a5a0536de818b0cd798ea3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.4.aar/60e58e80b6760f1c5ba693f07066a972/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:17:1-30:12
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:1-42:12
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:1-42:12
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:1-42:12
@@ -44,46 +50,46 @@ INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidMa
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:31:5-67
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:31:5-67
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:31:5-67
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:31:5-67
 	android:name
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:7:5-40:19
-MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/1cef7cb5e67cfc85dacf1cbf49408339/AndroidManifest.xml:30:5-20
-MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/1cef7cb5e67cfc85dacf1cbf49408339/AndroidManifest.xml:30:5-20
-MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e6f84161c9017c27af4a5fabefbceacb/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e6f84161c9017c27af4a5fabefbceacb/AndroidManifest.xml:9:5-20
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:33:5-53:19
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:33:5-53:19
-MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/b9b01b1c089126b2802beebd94497b82/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/b9b01b1c089126b2802beebd94497b82/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:24:5-28:19
+MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/fb451ac9591c67182a564c3ecfd7c72d/AndroidManifest.xml:30:5-20
+MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/fb451ac9591c67182a564c3ecfd7c72d/AndroidManifest.xml:30:5-20
+MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/113dba09a6ae38cd426ce5c6dabe0106/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/113dba09a6ae38cd426ce5c6dabe0106/AndroidManifest.xml:9:5-20
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:33:5-53:19
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:33:5-53:19
+MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/86e3fe797648e01f45f54bccc7dcf569/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/86e3fe797648e01f45f54bccc7dcf569/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
@@ -114,8 +120,8 @@ ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManif
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.spotify.sdk.android.authentication.LoginActivity
 ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:22:9-24:75
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:49:9-52:20
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:49:9-52:20
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:49:9-52:20
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:49:9-52:20
 	android:theme
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml:24:13-72
 	android:name
@@ -152,52 +158,64 @@ uses-sdk
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
-MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/1cef7cb5e67cfc85dacf1cbf49408339/AndroidManifest.xml:26:5-28:41
-MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/1cef7cb5e67cfc85dacf1cbf49408339/AndroidManifest.xml:26:5-28:41
-MERGED from [com.roughike:bottom-bar:2.3.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/546aad1d3079a616a68a8737b4bf4322/AndroidManifest.xml:8:5-10:41
-MERGED from [com.roughike:bottom-bar:2.3.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/546aad1d3079a616a68a8737b4bf4322/AndroidManifest.xml:8:5-10:41
-MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.12.aar/d4b582ab6766c208298aea43313bb842/AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.12.aar/d4b582ab6766c208298aea43313bb842/AndroidManifest.xml:18:3-42
-MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e6f84161c9017c27af4a5fabefbceacb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e6f84161c9017c27af4a5fabefbceacb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:27:5-29:41
-MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:27:5-29:41
-MERGED from [com.google.dagger:dagger-android:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-2.12.aar/f7172cf4588d9fb5b89cd45cae14f21e/AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:dagger-android:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-2.12.aar/f7172cf4588d9fb5b89cd45cae14f21e/AndroidManifest.xml:18:3-42
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/7a89fa68c68ebcb5369073c15099bd0e/AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/7a89fa68c68ebcb5369073c15099bd0e/AndroidManifest.xml:19:5-43
-MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/b9b01b1c089126b2802beebd94497b82/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/b9b01b1c089126b2802beebd94497b82/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:20:5-22:41
+MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/fb451ac9591c67182a564c3ecfd7c72d/AndroidManifest.xml:26:5-28:41
+MERGED from [:spotify-player-24-noconnect-2.20b] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/spotify-player-24-noconnect-2.20b.aar/fb451ac9591c67182a564c3ecfd7c72d/AndroidManifest.xml:26:5-28:41
+MERGED from [com.roughike:bottom-bar:2.3.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/183276faa3df1108e1f78d70bb6fbdc5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.roughike:bottom-bar:2.3.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/183276faa3df1108e1f78d70bb6fbdc5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.12.aar/632ec76ce3af27b544d0c4518f687fe7/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android-support:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.12.aar/632ec76ce3af27b544d0c4518f687fe7/AndroidManifest.xml:18:3-42
+MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/113dba09a6ae38cd426ce5c6dabe0106/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/113dba09a6ae38cd426ce5c6dabe0106/AndroidManifest.xml:5:5-7:41
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:27:5-29:41
+MERGED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:27:5-29:41
+MERGED from [com.google.dagger:dagger-android:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-2.12.aar/0d237b2b1fe219be8cdbd9cc0983326b/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.12] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/dagger-android-2.12.aar/0d237b2b1fe219be8cdbd9cc0983326b/AndroidManifest.xml:18:3-42
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/45db273dd35db3694f0c53e7831daf75/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/45db273dd35db3694f0c53e7831daf75/AndroidManifest.xml:19:5-43
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.4.aar/318a701b9c24644ddd0c498f28d57a22/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.4.aar/318a701b9c24644ddd0c498f28d57a22/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.4.aar/6b359bda21d9666ee1ae5639a69cc934/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.4.aar/6b359bda21d9666ee1ae5639a69cc934/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/86e3fe797648e01f45f54bccc7dcf569/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.1.1] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/customtabs-25.1.1.aar/86e3fe797648e01f45f54bccc7dcf569/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.4.aar/b381404ce500b404bbb2ab8f03a52acd/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.4.aar/b381404ce500b404bbb2ab8f03a52acd/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.4.aar/616c583045a0669f05a1f5ac1031df5c/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.4.aar/616c583045a0669f05a1f5ac1031df5c/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.4.aar/02b5e989e4a5a0536de818b0cd798ea3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.4.aar/02b5e989e4a5a0536de818b0cd798ea3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.4.aar/60e58e80b6760f1c5ba693f07066a972/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.4] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.4.aar/60e58e80b6760f1c5ba693f07066a972/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
@@ -207,64 +225,64 @@ INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidMa
 		ADDED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mistreckless/StudioProjects/MusicApp/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/b7b9fd67ab6c4b5e9dc131fa95c0222e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0bc33f0564b7db785eb2bfa03481bf95/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/bd30e8cc43f4d78f5d61645677540843/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6b124e33d494f0e3a81170c51dd04b04/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9e9c7f03849e3f7cd78ff4703a90a2c5/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/02d9d6cc1ea1fb8edc7ce524ee684455/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/dd901349324fc4b387ae40c2e573fed9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/0892dfaa00d2e31b585385378ed40b4f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/24f2f68ec2b174270bbff73516eac15c/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/dacc78b31abd188095bd164e84660426/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/db59498e0cd31d14ca1a3da870d7c8db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/861f6f9c79e5dab8d15ba23ee987b362/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5aee29b4182e98864d0c62df987dc4fd/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/dfa771e24a59eac984313b19e1e71fb2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d360155751d33a86a8dfbe473e506db3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/243b3c847b83e79cf890dc51d25c605d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/548607e4b18063973b086f16a994b7d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/06bac630535ac131ccea95344440df1a/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/AndroidManifest.xml:27:13-51
 activity#com.spotify.sdk.android.authentication.AuthCallbackActivity
-ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:34:9-48:20
+ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:34:9-48:20
 	android:exported
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:36:13-36
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:36:13-36
 	android:theme
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:37:13-72
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:37:13-72
 	android:name
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:35:13-87
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:35:13-87
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:38:13-47:29
+ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:38:13-47:29
 action#android.intent.action.VIEW
-ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:39:17-69
+ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:39:25-66
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:39:25-66
 category#android.intent.category.DEFAULT
-ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:41:17-76
+ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:41:17-76
 	android:name
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:41:27-73
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:41:27-73
 category#android.intent.category.BROWSABLE
-ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:42:17-78
+ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:42:17-78
 	android:name
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:42:27-75
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:42:27-75
 data
-ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:44:17-46:80
+ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:44:17-46:80
 	android:host
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:45:21-73
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:45:21-73
 	android:scheme
-		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/aa1bd5c3b5aab3a439e49732d179e6c2/AndroidManifest.xml:46:21-77
+		ADDED from [com.spotify.android:auth:1.0.0-alpha] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/auth-1.0.0-alpha.aar/a5940c2e88a0dc5528a193231ccc0480/AndroidManifest.xml:46:21-77
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/632c43a4f05361377a775d03c3d08b91/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/mistreckless/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a9a1bbeb6293eee052b82d54b9eb5b61/AndroidManifest.xml:26:13-58

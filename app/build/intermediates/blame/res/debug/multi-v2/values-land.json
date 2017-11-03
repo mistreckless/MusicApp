@@ -4,7 +4,17 @@
             "outputFile": "/Users/mistreckless/StudioProjects/MusicApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/res/values-land/values-land.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/183276faa3df1108e1f78d70bb6fbdc5/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                },
+                {
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,17 +31,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.3.1.aar/546aad1d3079a616a68a8737b4bf4322/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "60",
-                        "endOffsets": "111"
-                    }
-                },
-                {
-                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a83847c680c43f82ae76075eb8b4642/res/values-land/values-land.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/794615208a48bd64a06c5d98433e799d/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

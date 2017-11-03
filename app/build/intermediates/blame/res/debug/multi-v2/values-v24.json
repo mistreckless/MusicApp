@@ -4,7 +4,7 @@
             "outputFile": "/Users/mistreckless/StudioProjects/MusicApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e03b5b3df35ae49683b94ad02ccb2971/res/values-v24/values-v24.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5dddd688244f2e884ce8bf06714fa1af/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/res/values-v24/values-v24.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

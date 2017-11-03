@@ -4,13 +4,37 @@
             "outputFile": "/Users/mistreckless/StudioProjects/MusicApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
-                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a523975d68dfa88ca830cbc7fb894c1a/res/values-hu/values-hu.xml",
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e09e01d8ca49464a56ff34d401828548/res/values-hu/values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "55,163,271,394,499,614,698,810,940,1016,1092,1175,1285,1396,1496,1607,1715,1834,1968,2071,2154",
                         "endColumns": "107,107,122,104,114,83,111,129,75,75,82,109,110,99,110,107,118,133,102,82,100",
                         "endOffsets": "158,266,389,494,609,693,805,935,1011,1087,1170,1280,1391,1491,1602,1710,1829,1963,2066,2149,2250"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,31,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,271,394,499,614,698,810,940,1016,1092,1175,1285,1396,1496,1607,1715,1834,1968,2829,2912",
+                        "endColumns": "107,107,122,104,114,83,111,129,75,75,82,109,110,99,110,107,118,133,102,82,100",
+                        "endOffsets": "158,266,389,494,609,693,805,935,1011,1087,1170,1280,1391,1491,1602,1710,1829,1963,2066,2907,3008"
+                    }
+                },
+                {
+                    "source": "/Users/mistreckless/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.4.aar/6b359bda21d9666ee1ae5639a69cc934/res/values-hu/values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,135,210,278,348,423,506,587,667,743",
+                        "endColumns": "79,74,67,69,74,82,80,79,75,69",
+                        "endOffsets": "130,205,273,343,418,501,582,662,738,808"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2071,2151,2226,2294,2364,2439,2522,2603,2683,2759",
+                        "endColumns": "79,74,67,69,74,82,80,79,75,69",
+                        "endOffsets": "2146,2221,2289,2359,2434,2517,2598,2678,2754,2824"
                     }
                 }
             ]

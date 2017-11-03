@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.mistreckless.support.musicapp.ui.player.PlayerActivity">
 
-    <WebView
-        android:id="@+id/webView"
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/playerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
