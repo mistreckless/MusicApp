@@ -4,17 +4,7 @@
             "outputFile": "E:\\AndroidStudioProjects\\MusicApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4838594ab0bc7ab444e4ef052277b86c\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\3eabed487a77f591cbbe1dd34a7b1ad3\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0d0371ea2f4bd815678e284d7ad379fa\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "619,685,746,812",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "680,741,807,874"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\fdfe113d8b342da93af1052e13528ba4\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
                     }
                 }
             ]

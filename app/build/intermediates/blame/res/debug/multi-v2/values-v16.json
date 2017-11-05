@@ -4,7 +4,7 @@
             "outputFile": "E:\\AndroidStudioProjects\\MusicApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\eee103657fc64a7435b9fab35ea6c101\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\9090263cfb28a0dae78d5dc486fe1a01\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4838594ab0bc7ab444e4ef052277b86c\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Royal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\fdfe113d8b342da93af1052e13528ba4\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
