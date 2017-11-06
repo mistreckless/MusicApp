@@ -7,6 +7,7 @@ import com.mistreckless.support.musicapp.domain.RepositoryModule
 import com.mistreckless.support.musicapp.ui.PerActivity
 import com.mistreckless.support.musicapp.ui.main.MainActivity
 import com.mistreckless.support.musicapp.ui.main.MainActivityFragmentProvider
+import com.mistreckless.support.musicapp.ui.player.PlayerActivity
 import dagger.BindsInstance
 import dagger.Component
 import dagger.Module
@@ -33,6 +34,10 @@ abstract class ActivityBuilder {
     @PerActivity
     @ContributesAndroidInjector(modules = arrayOf(MainActivityFragmentProvider::class))
     abstract fun bindMainActivity(): MainActivity
+
+    @PerActivity
+    @ContributesAndroidInjector(modules = arrayOf(MainActivityFragmentProvider::class))
+    abstract fun bindPlayerActivity() : PlayerActivity
 
 }
 

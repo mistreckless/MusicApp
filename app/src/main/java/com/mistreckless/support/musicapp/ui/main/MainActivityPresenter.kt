@@ -2,11 +2,10 @@ package com.mistreckless.support.musicapp.ui.main
 
 import android.content.Intent
 import android.util.Log
+import com.arellomobile.mvp.InjectViewState
 import com.mistreckless.support.musicapp.domain.repository.UserRepository
 import com.mistreckless.support.musicapp.ui.BasePresenter
-import com.mistreckless.support.musicapp.ui.BasePresenterProviderFactory
 import com.mistreckless.support.musicapp.ui.PerActivity
-import com.mistreckless.support.musicapp.ui.presenterHolder
 import com.spotify.sdk.android.authentication.AuthenticationClient
 import com.spotify.sdk.android.authentication.AuthenticationRequest
 import com.spotify.sdk.android.authentication.AuthenticationResponse.Type.*
@@ -15,12 +14,17 @@ import javax.inject.Inject
 /**
  * Created by @mistreckless on 22.10.2017. !
  */
-class MainActivityPresenter(private val userRepository: UserRepository) : BasePresenter<MainActivityView, MainActivityRouter>() {
-    override fun onFirstViewAttached() {
+@PerActivity
+@InjectViewState
+class MainActivityPresenter @Inject constructor(private val userRepository: UserRepository) : BasePresenter<MainActivityView, MainActivityRouter>() {
+
+    override fun onFirstViewAttach() {
+        super.onFirstViewAttach()
         val builder = AuthenticationRequest.Builder(CLIENT_ID, TOKEN, REDIRECT_URL)
         builder.setScopes(arrayOf("streaming","user-library-read","user-read-birthdate","user-read-playback-state"))
         val request = builder.build()
         getRouter()?.navigateToLoginActivity(request, LOGIN_REQUEST_CODE)
+
     }
 
 
@@ -33,7 +37,7 @@ class MainActivityPresenter(private val userRepository: UserRepository) : BasePr
                         userRepository.cacheToken(response.accessToken)
                         userRepository.getUser()
                                 .subscribe({
-                                    getView()?.initUi()
+                                    viewState.initUi()
                                     getRouter()?.navigateToProfile()
                                 }, {
                                     Log.e("error", it.message)
@@ -61,19 +65,7 @@ class MainActivityPresenter(private val userRepository: UserRepository) : BasePr
     }
 
     fun taProfileClicked() {
-
+        getRouter()?.navigateToProfile()
     }
-}
-
-@PerActivity
-class MainPresenterProviderFactory @Inject constructor(private val userRepository: UserRepository) : BasePresenterProviderFactory<MainActivityPresenter> {
-    override fun get(): MainActivityPresenter {
-        if (presenterHolder.contains(MainActivityPresenter.TAG))
-            return presenterHolder[MainActivityPresenter.TAG] as MainActivityPresenter
-        val presenter = MainActivityPresenter(userRepository)
-        presenterHolder.put(MainActivityPresenter.TAG, presenter)
-        return presenter
-    }
-
 }
 

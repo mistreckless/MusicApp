@@ -2,23 +2,22 @@ package com.mistreckless.support.musicapp.ui
 
 import android.content.Context
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.mistreckless.support.musicapp.ui.main.MainActivityRouter
+import com.arellomobile.mvp.MvpAppCompatFragment
+import com.arellomobile.mvp.MvpView
 import dagger.android.support.AndroidSupportInjection
 import javax.inject.Inject
+import javax.inject.Provider
 
 /**
  * Created by @mistreckless on 22.10.2017. !
  */
-abstract class BaseFragment<out P : BasePresenter<*, *>, F : BasePresenterProviderFactory<P>> : Fragment() {
-    @Inject
-    lateinit var presenterFactory : F
-    val presenter : P by lazy { presenterFactory.get() }
+abstract class BaseFragment<P : BasePresenter<out MvpView, *>> : MvpAppCompatFragment() {
 
-    var restoredBundle : Bundle?=null
+    @Inject
+    lateinit var presenterProvider: Provider<P>
 
     override fun onAttach(context: Context?) {
         AndroidSupportInjection.inject(this)
@@ -27,10 +26,15 @@ abstract class BaseFragment<out P : BasePresenter<*, *>, F : BasePresenterProvid
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        restoredBundle = savedInstanceState
         super.onCreate(savedInstanceState)
-        presenter.attachRouter(getRouter())
+        attachRouter()
     }
+
+    override fun onDestroy() {
+        detachRouter()
+        super.onDestroy()
+    }
+
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val cls = javaClass
@@ -39,34 +43,6 @@ abstract class BaseFragment<out P : BasePresenter<*, *>, F : BasePresenterProvid
         return inflater!!.inflate(annotation.id, container, false)
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
-        presenter.attachView(this)
-        presenter.attachRouter(getRouter())
-
-        if (restoredBundle !=null) presenter.onViewRestoredWhenSystemKillAppOrActivity()
-        else if(savedInstanceState==null) presenter.onFirstViewAttached()
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        presenter.attachRouter(getRouter())
-        super.onActivityCreated(savedInstanceState)
-    }
-
-    override fun onViewStateRestored(savedInstanceState: Bundle?) {
-        super.onViewStateRestored(savedInstanceState)
-        presenter.onViewRestored(savedInstanceState ?: Bundle())
-
-    }
-
-    override fun onDestroyView() {
-        presenter.detachView()
-        super.onDestroyView()
-    }
-
-    override fun onDestroy() {
-        presenter.detachRouter()
-        super.onDestroy()
-    }
-
-    protected open fun getRouter(): Any = activity as MainActivityRouter
+    abstract fun attachRouter()
+    abstract fun detachRouter()
 }
